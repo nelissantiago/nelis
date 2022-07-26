@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import styles from './styles.module.scss'
 import { AiFillInstagram } from 'react-icons/ai'
 import { IoLogoWhatsapp } from 'react-icons/io'

@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { WhoProps } from '../utils/CreateInterfaces'
 import styles from './styles.module.scss'
 
