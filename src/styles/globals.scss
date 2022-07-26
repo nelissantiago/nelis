@@ -25,6 +25,7 @@
   --pattern: #0e091b;
   --white-300: rgb(211, 211, 211);
   --post-color: #27272a;
+  --background-default: #080713;
 }
 
 :focus {
@@ -37,7 +38,7 @@ html {
 
 html,
 body {
-  background-color: var(--color-background-default);
+  background-color: var(--background-default);
   color: var(--white);
 }
 

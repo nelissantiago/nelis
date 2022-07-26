@@ -333,6 +333,10 @@
       span {
         font-size: 1.25rem;
         font-weight: 600;
+
+        @media (max-width: 480px) {
+          font-size: 1.1rem;
+        }
       }
 
       p {
@@ -343,8 +347,8 @@
 
       .btn {
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         width: 100%;
         margin-top: 0.7rem;
 
@@ -361,18 +365,22 @@
 
         .inst {
           display: flex;
-          margin-left: 0.65rem;
+          margin-left: 0.55rem;
 
         svg {
             font-size: 1.8rem;
             color: var(--white);
+
+            @media (max-width: 480px) {
+              font-size: 1.5rem;
+            }
           }
         }
       }
 
 
       @media (max-width: 480px) {
-        margin: 8px;
+        margin: 7px;
         padding: 12px 14px;
 
         .image {
@@ -384,7 +392,8 @@
         }
 
         .span {
-          font-size: 1rem;
+          border: solid red 1px;
+          font-size: 0.5rem;
         }
 
         .btn {
@@ -395,10 +404,6 @@
             padding: 0 0.484em;
             font-size: 0.9rem;
           }
-        }
-
-        svg {
-          font-size: 1.5rem;
         }
       }
 

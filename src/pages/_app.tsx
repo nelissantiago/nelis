@@ -1,10 +1,13 @@
+import { ApolloProvider } from '@apollo/client'
 import { AppProps } from 'next/app'
 import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Component {...pageProps} />
+      
+        <Component {...pageProps} />
+    
     </>
   )
 }

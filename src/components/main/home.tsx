@@ -2,14 +2,9 @@ import styles from './styles.module.scss'
 import Image from 'next/image'
 import home from '../../../public/images/home.svg'
 import Typewriter from 'typewriter-effect';
+import { HomeProps } from '../utils/CreateInterfaces';
 
-interface Props {
-    name: string;
-    title: string;
-    typeWriter: string;
-    link: string;
-}
-export function Main({name, title, typeWriter, link}: Props) {
+export function Main({name, title, typeWriter, link}: HomeProps) {
     return (  
         <>
             <div className={styles.contentHome}>

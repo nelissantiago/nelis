@@ -1,12 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+import { WhoProps } from '../utils/CreateInterfaces'
 import styles from './styles.module.scss'
 
-interface Props {
-    who: string;
-    profile: string;
-    title: string;
-}
-export function Who({ who, title,profile }: Props) {
+export function Who({ who, title, profile }: WhoProps) {
     return (
         <>
            <div className={styles.content}>

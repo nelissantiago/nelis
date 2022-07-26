@@ -1,11 +1,7 @@
 import { FaDiscord } from 'react-icons/fa'
-
 import { RiInstagramFill } from 'react-icons/ri'
-
 import { AiFillGithub } from 'react-icons/ai'
-
 import styles from './styles.module.scss'
-
 import { toast } from 'react-nextjs-toast'
 
 export function Social() {
@@ -20,7 +16,6 @@ export function Social() {
             title: "Usuario Copiado!",
           })
     }
-
 
     return (
         <>
