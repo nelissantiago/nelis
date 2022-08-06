@@ -4,8 +4,6 @@ import { IoLogoWhatsapp } from 'react-icons/io'
 import { FrieldsProps } from '../utils/CreateInterfaces'
 
 
-
-
 export function Frields({ name, profissao, avatar, buttonCopy, href, copy }: FrieldsProps) {
     return (  
         <>

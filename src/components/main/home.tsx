@@ -7,7 +7,7 @@ import { HomeProps } from '../utils/CreateInterfaces';
 export function Main({name, title, typeWriter, link}: HomeProps) {
     return (  
         <>
-            <div className={styles.contentHome}>
+         <div className={styles.contentHome}>
                 <div className={styles.here}>
                     <span>{name}</span>
                     <h2>{title}</h2>

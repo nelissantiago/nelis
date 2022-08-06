@@ -1,4 +1,8 @@
 .main {
+  .redirect {
+    position: absolute;
+    background-color: red;
+  }
   .home {
     background-color: var(--pattern);
 
